@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: "Icecreams";
+    src: url("../assets/font/Icecreams.ttf")
+}
+
+@font-face{
+    font-family: "Start";
+    src: url("../assets/font/Start.otf")
+}
+
+@font-face {
+    font-family: "Starborn";
+    src: url("../assets/font/Starborn.ttf");
+}
+
+p {
+    font-family:"Start";
+    font-size:2em;
+}
+
+li {
+    font-family:"Start";
+    font-size:2em;
+}
+
+h3 {
+    font-family:"Start";
+    font-size:2em;
+}
+
+h1 {
+    color:rgb(241, 197, 107);
+    font-family:"Icecreams";
+    font-size:8em;
+    justify-items: center;
+}
+
+header {
+    text-align: center;
+}
+.encabezado {
+    background-color: rgb(122,58,35);
+}
+
+.paginas{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.carrusel{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.divisores{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border: 10px solid rgb(251, 232, 190);
+    margin: 5px;
+}
+
+.alejados{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 10px solid rgb(251, 232, 190);
+    margin: 5px;
+}
+
+.borde-suave{
+    box-sizing: border-box;
+    border: 25px solid rgb(211, 175, 122);
+    margin: 5px;
+    border-radius:30px;
+}
+
+.boton{
+    box-sizing:border-box;
+    border:5px solid rgb(110, 48, 16);
+    border-radius: 5px;
+    background-color: rgb(211, 175, 122);
+    font-family:"Start";
+    font-size: 2em;
+    color:rgb(67, 40, 24);
+}
+
+.imagen{
+    box-sizing: border-box;
+    border: 1em solid rgb(211, 175, 122);
+    margin: 5px;
+}
+
+main{
+    box-sizing:border-box;
+    border-bottom: 25px solid rgb(251, 232, 190);
+}
+
+.marcadores{
+    color:rgb(187, 90, 49);
+    font-family:"Starborn";
+    font-size:2em;
+    box-sizing:border-box;
+    border-bottom: 10px solid rgb(251, 232, 190);
+    border-top: 10px solid rgb(251, 232, 190);
+}
+body{
+    background-color: rgb(251, 232, 190);
+}
+
+a {
+    color:rgb(241, 197, 107);
+    font-family:"Start";
+    text-decoration: none;
+    font-size:1.5em;
+}
+
+.pie{
+    background-color: rgb(67, 40, 24);
+}
+
+.pie section{
+    color:rgb(174, 158, 134);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pie section div{
+    color:rgb(236, 223, 198)
+}
+
+.sabores{
+    list-style:none;
+}
+
+.frutales{
+    color:rgb(214, 32, 41)
+}
+
+.dulces{
+    color:rgb(192, 113, 29)
+}
+
+.chocolates{
+    color:rgb(110, 48, 16)
+}
+
+.cremas{
+    color:rgb(203, 190, 167)
+}
